@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoSaviors 🌿</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #e6ffe6, #f0fff0);
+      color: #333;
+      overflow-x: hidden;
+      animation: fadeIn 1s ease-in-out;
+    }
+    header {
+      background: linear-gradient(to right, #4CAF50, #2e7d32);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      animation: slideDown 1s ease-out;
+    }
+    nav {
+      background: #2e7d32;
+      padding: 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #c8f7c5;
+    }
+    main {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+      animation: fadeInUp 1.5s ease-out;
+    }
+    section {
+      margin-bottom: 4rem;
+    }
+    iframe {
+      width: 100%;
+      height: 315px;
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    iframe:hover {
+      transform: scale(1.02);
+    }
+    footer {
+      background: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      animation: fadeIn 2s ease-out;
+    }
+    h2 {
+      color: #2e7d32;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    h3 {
+      margin-top: 2rem;
+      font-size: 1.5rem;
+      color: #388e3c;
+    }
+    p, ul {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    a {
+      color: #2e7d32;
+      text-decoration: underline;
+      transition: color 0.3s;
+    }
+    a:hover {
+      color: #66bb6a;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes slideDown {
+      from { transform: translateY(-100px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    @keyframes fadeInUp {
+      from { transform: translateY(50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>EcoSaviors 🌿</h1>
+    <p>Inspiring the world to take simple steps for a better planet.</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#tips">Eco Tips</a>
+    <a href="#resources">Resources</a>
+    <a href="#blog">Blog</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#impact">Impact</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="home">
+      <h2>Welcome to EcoSaviors</h2>
+      <p>We're a youth-powered eco initiative spreading awareness through videos, tips, and action. Even small acts can make a huge difference. 🌎✨</p>
+
+<h3>Watch Our Latest Video</h3>
+<iframe src="https://www.youtube.com/embed?listType=user_uploads&list=UUd-Ehz0UodPYMLcAnL98rfw" allowfullscreen></iframe>
+<p>🎥 Follow us on <a href="https://youtube.com/@ecosaviors" target="_blank">YouTube</a> for weekly eco content!</p>
+
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>EcoSaviors is a faceless youth-led movement founded by Vihaan Aneja to empower people to make simple changes in daily life for a greener tomorrow. We focus on practical, creative, and impactful content that inspires action.</p>
+    </section>
+
+    <section id="tips">
+      <h2>Eco Tips</h2>
+      <ul>
+        <li>Carry a reusable water bottle</li>
+        <li>Switch off lights when not in use</li>
+        <li>Use public transport or cycle</li>
+        <li>Support local eco brands</li>
+        <li>Reduce, Reuse, Recycle</li>
+      </ul>
+    </section>
+
+    <section id="resources">
+      <h2>Resources</h2>
+      <p>Check out useful guides, PDFs, and websites to help you go green. Coming soon!</p>
+    </section>
+
+    <section id="blog">
+      <h2>Blog</h2>
+      <p>Read thoughts and reflections on sustainability, habits, innovations, and the journey of EcoSaviors. New posts every month!</p>
+    </section>
+
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <p>Photos from clean-up drives, awareness campaigns, nature photography, and community moments. (Images coming soon!)</p>
+    </section>
+
+    <section id="impact">
+      <h2>Impact</h2>
+      <p>We're growing! With over 1,000+ views and dozens of supporters, EcoSaviors is sparking awareness in young minds across the world.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Got ideas, feedback, or want to collaborate? Reach us at <a href="mailto:ecosaviors.contact@gmail.com">ecosaviors.contact@gmail.com</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 EcoSaviors. Built with purpose by Vihaan Aneja.</p>
+  </footer>
+</body>
+</html>
